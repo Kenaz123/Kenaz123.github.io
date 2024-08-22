@@ -25,12 +25,13 @@ role: Undergraduate (Junior)
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Nanjing University
+    url: ''
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: '221900332@smail.nju.edu.cn'
+    url: 'mailto:221900332@smail.nju.edu.cn'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/Aifly1231
@@ -47,10 +48,11 @@ interests:
   - ML system
 
 education:
-  - institution: Nanjing University
-    area: B.S. in Computer Science
+  - area: B.S. in Computer Science
+    institution: Nanjing University 
     date_start: 2022
     date_end: 2026(expected)
+    summary: ''
     
 work:
   - position: Internship in LLMsys led by [Junhao Hu](https://derekhjh.com/)
@@ -62,6 +64,8 @@ work:
     summary: |2-
       Responsibilities include:
       - to be continue...
+      - null
+      - null
   
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -109,6 +113,7 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Blockchain Fundamentals
+    url: ''
     date: '2023-07-01'
     awarder: edX
     icon: edx
