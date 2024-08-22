@@ -70,28 +70,32 @@ skills:
     items:
       - name: C++
         description: ''
-        percent: ''
+        percent: 80
         icon: code-bracket
+      - name: Data Science
+        description: ''
+        percent: 100
+        icon: chart-bar
       - name: Python
         description: ''
-        percent: ''
+        percent: 40
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Guitar
+      - name: Hiking
         description: ''
-        percent: ''
-        icon: ''
+        percent: 60
+        icon: person-simple-walk
       - name: Cats
         description: ''
         percent: 100
         icon: cat
-      - name: Reading & Writing
+      - name: Photography
         description: ''
-        percent: ''
-        icon: ''
+        percent: 80
+        icon: camera
 
 languages:
   - name: Chinese
@@ -104,10 +108,15 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: To be filled
+  - title: Blockchain Fundamentals
     date: '2023-07-01'
     awarder: edX
     icon: edx
+    summary: |
+      Learned:
+      - Synthesize your own blockchain solutions
+      - Gain an in-depth understanding of the specific mechanics of Bitcoin
+      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
 ---
 
 ## About Me
