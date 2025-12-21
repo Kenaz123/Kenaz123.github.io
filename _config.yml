@@ -220,6 +220,11 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: "_projects"
+      type: "projects"
+    values:
+      published: false
 
 sass:
   style: compressed
