@@ -8,10 +8,10 @@ subtitle: >
 
 profile:
   align: right
-  image: wwd.png
+  image: wwd2ß.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Liberty Island, NYC</p>
+    <p>Liberty Island, NYC, USA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

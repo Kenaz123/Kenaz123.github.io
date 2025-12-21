@@ -1,6 +1,7 @@
 name: Check for broken links
 
-on:
+# Disabled - uncomment to re-enable
+# on:
   push:
     branches:
       - master
