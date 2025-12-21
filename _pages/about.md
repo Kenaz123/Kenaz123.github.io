@@ -8,7 +8,7 @@ subtitle: >
 
 profile:
   align: right
-  image: wwd2ß.png
+  image: wwd2.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Liberty Island, NYC, USA</p>
