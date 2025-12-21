@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: > 
+subtitle: >
   Undergraduate @ <a href='https://www.nju.edu.cn/en'>Nanjing University</a>. 
   Research Intern @ <a href='https://illinois.edu/'>UIUC</a>.
 
@@ -27,11 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Weidong Wang (王卫东), a final year undergraduate student in [Nanjing University](https://www.nju.edu.cn/en). My research interest lies in topics related to *Software Engineering* and *Large Language Model System*, with a current focus on projects related to *LLM4SE*, *Code Agent*, and *Bug Detection*. I am currently working on developing agentic systems to advance bug detection and automated program repair.
+I am Weidong Wang (王卫东), a final year undergraduate student in [Nanjing University](https://www.nju.edu.cn/en). My research interest lies in topics related to _Software Engineering_ and _Large Language Model System_, with a current focus on projects related to _LLM4SE_, _Code Agent_, and _Bug Detection_. I am currently working on developing agentic systems to advance bug detection and automated program repair.
 
-I am currently working as a research intern at the iSE Group, [University of Illinois at Urbana-Champaign](https://illinois.edu/) advised by Prof. [Lingming Zhang](https://lingming.cs.illinois.edu/). Previously, I was doing some machine learning system work in the LLMsys group with Prof. [Tao Xie](https://taoxiease.github.io/) in [Peking University](https://english.pku.edu.cn/).  
+I am currently working as a research intern at the iSE Group, [University of Illinois at Urbana-Champaign](https://illinois.edu/) advised by Prof. [Lingming Zhang](https://lingming.cs.illinois.edu/). Previously, I was doing some machine learning system work in the LLMsys group with Prof. [Tao Xie](https://taoxiease.github.io/) in [Peking University](https://english.pku.edu.cn/).
 
 <p style="color: #B31B1B; font-weight: bold;">
 I am currently seeking a Ph.D. position starting from Fall 2026.
 </p>
-Feel free to drop me an email if you are interested in my research or have any questions. 
+Feel free to drop me an email if you are interested in my research or have any questions.
