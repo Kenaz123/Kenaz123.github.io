@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Undergraduate @ <a href='https://www.nju.edu.cn/en'>Nanjing University</a>. 
+  Undergraduate @ <a href='https://www.nju.edu.cn/en'>NJU</a>. 
   Research Intern @ <a href='https://illinois.edu/'>UIUC</a>.
 
 profile:
