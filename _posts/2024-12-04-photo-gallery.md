@@ -11,6 +11,7 @@ images:
   photoswipe: true
   spotlight: true
   venobox: true
+published: false
 ---
 
 The images in this post are all zoomable, arranged into different mini-galleries using different libraries.
@@ -59,6 +60,7 @@ The images in this post are all zoomable, arranged into different mini-galleries
   </div>
 </div>
 
+published: false
 ---
 
 ## [Spotlight JS](https://nextapps-de.github.io/spotlight/)
