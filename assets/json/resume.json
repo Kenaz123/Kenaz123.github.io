@@ -70,20 +70,12 @@
     {
       "name": "Machine Learning Systems",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Efficient LLM Inference",
-        "System Optimization",
-        "Distributed Systems"
-      ]
+      "keywords": ["Efficient LLM Inference", "System Optimization", "Distributed Systems"]
     },
     {
       "name": "Software Engineering",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Code Generation",
-        "Bug Detection",
-        "Agentic Systems"
-      ]
+      "keywords": ["Code Generation", "Bug Detection", "Agentic Systems"]
     }
   ],
   "references": [],

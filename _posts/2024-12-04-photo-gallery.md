@@ -60,8 +60,7 @@ The images in this post are all zoomable, arranged into different mini-galleries
   </div>
 </div>
 
-published: false
----
+## published: false
 
 ## [Spotlight JS](https://nextapps-de.github.io/spotlight/)
 
