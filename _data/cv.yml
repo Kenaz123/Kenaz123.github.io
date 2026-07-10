@@ -9,6 +9,9 @@
 - title: Education
   type: time_table
   contents:
+    - title: M.S. in Computer Science
+      institution: University of Illinois Urbana-Champaign
+      year: 2026 - present
     - title: B.S. in Computer Science and Technology
       institution: Nanjing University, China
       year: 2022 - 2026
@@ -20,7 +23,7 @@
   contents:
     - title: Research Intern
       institution: University of Illinois Urbana-Champaign
-      year: 2025 - present
+      year: 2025 - 2026
       description:
         - Working on LLM4SE, Code Agent, and Bug Detection
     - title: Research Intern

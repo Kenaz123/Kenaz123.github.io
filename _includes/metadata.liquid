@@ -213,7 +213,7 @@
         {% capture link %}{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'x_username' %}
-        {% capture link %}https://twitter.com/{{ social[1] }}{% endcapture %}
+        {% capture link %}https://x.com/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'youtube_id' %}
         {% capture link %}https://youtube.com/@{{ social[1] }}{% endcapture %}
