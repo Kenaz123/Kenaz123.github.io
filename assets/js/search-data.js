@@ -66,6 +66,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
+          section: "News",},{id: "news-i-will-be-pursuing-my-m-s-in-computer-science-at-the-university-of-illinois-urbana-champaign",
+          title: 'I will be pursuing my M.S. in Computer Science at the University of...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
