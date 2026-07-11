@@ -74,7 +74,3 @@ $$\exists x_1 \cdots x_n \Big[\, SE\big(P_f,\; \underbrace{WP_d(P_b, \neg\varphi
 3. Symbolically execute $$P_f$$ from precondition $$\alpha$$ to get a postcondition $$\psi$$, existentially quantify away the non-input variables, and check whether $$\psi \to \varphi$$ is valid.
 
 Any counterexample to that implication is, by construction, a member of $$\alpha$$'s underlying input set — and since $$\{i \in I : \alpha\} \subseteq \tilde{i}_b$$ by construction, every counterexample $$WP_d$$ produces is a genuine bug-triggering input, not a false positive. That's the soundness guarantee that makes the whole approach trustworthy as a bug-fix critic rather than just a heuristic: FIXATION can miss bad fixes (if $$d$$ is too small to reach the relevant path), but it never cries wolf.
-
-### What stuck with me
-
-This is basically the mirror image of what I've been building at UIUC with AnyPoC. AnyPoC starts from a _candidate bug report_ and synthesizes a PoC to prove the bug is real — validating the front half of the bug lifecycle. This paper starts from a _candidate fix_ and synthesizes a counterexample to prove it's incomplete — validating the back half. Same underlying belief in both: a claim about program behavior isn't trustworthy until something concrete forces it to prove itself. Sixteen years apart, same instinct, very different toolchain — $$WP_d$$ and symbolic execution here, LLM agents driving execution traces in ours.
