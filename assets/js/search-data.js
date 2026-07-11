@@ -44,7 +44,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-hello-welcome-to-my-homepage",
+            },{id: "post-paper-notes-has-the-bug-really-been-fixed",
+        
+          title: "Paper Notes: Has the Bug Really Been Fixed?",
+        
+        description: "Reading Gu, Barr, Hamilton, and Su&#39;s ICSE&#39;10 paper on detecting bad bug fixes with distance-bounded weakest preconditions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/has-the-bug-really-been-fixed/";
+          
+        },
+      },{id: "post-hello-welcome-to-my-homepage",
         
           title: "Hello, welcome to my homepage",
         
