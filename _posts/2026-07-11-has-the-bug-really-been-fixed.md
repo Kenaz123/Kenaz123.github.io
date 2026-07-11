@@ -7,11 +7,11 @@ tags: Software Engineering
 related_posts: false
 ---
 
-Every developer has done this: fix a bug, rerun the failing test, watch it go green, and move on to the next ticket. [*Has the Bug Really Been Fixed?*](https://people.inf.ethz.ch/suz/publications/icse10-badfix.pdf) (Gu, Barr, Hamilton, and Su, ICSE 2010) is about how often that green checkmark is lying to you, and it backs the claim with a fairly clean piece of formalism.
+Every developer has done this: fix a bug, rerun the failing test, watch it go green, and move on to the next ticket. [_Has the Bug Really Been Fixed?_](https://people.inf.ethz.ch/suz/publications/icse10-badfix.pdf) (Gu, Barr, Hamilton, and Su, ICSE 2010) is about how often that green checkmark is lying to you, and it backs the claim with a fairly clean piece of formalism.
 
 ### The setup
 
-Mining the Bugzilla histories of Ant, AspectJ, and Rhino, the paper finds that bad fixes account for 66-80% of reopened bugs across the three projects, and roughly 9% of *all* bugs in the Apache-project sample turn out to be bad fixes once you trace the history. Developers even confess to it in the comments — the paper quotes one saying "Oops, missed one code path."
+Mining the Bugzilla histories of Ant, AspectJ, and Rhino, the paper finds that bad fixes account for 66-80% of reopened bugs across the three projects, and roughly 9% of _all_ bugs in the Apache-project sample turn out to be bad fixes once you trace the history. Developers even confess to it in the comments — the paper quotes one saying "Oops, missed one code path."
 
 ### Formalizing "bad"
 
@@ -27,7 +27,7 @@ A fix $$f$$ produces a new program $$P_f$$. At minimum $$P_f(i_b) \models \varph
 
 $$\hat{i}_b = \{\, i \in \tilde{i}_b : P_f(i) \models \varphi \,\},$$
 
-and **coverage** is just how close $$\hat{i}_b$$ gets to $$\tilde{i}_b$$. On the other side, letting $$P^o$$ denote the (unknown, ideal) correct oracle, **disruption** is the set of *new* deviations the fix introduces outside the bug's own input domain:
+and **coverage** is just how close $$\hat{i}_b$$ gets to $$\tilde{i}_b$$. On the other side, letting $$P^o$$ denote the (unknown, ideal) correct oracle, **disruption** is the set of _new_ deviations the fix introduces outside the bug's own input domain:
 
 $$B_f = \{\, i \in I \setminus \tilde{i}_b : P_f(i) \neq P^o(i) \,\}.$$
 
@@ -61,7 +61,7 @@ Two nice properties fall out immediately. First, $$WP_d$$ never needs a loop inv
 
 $$\lim_{d \to \infty} WP_d(P, \varphi, \Pi, d) = WP(P, \varphi).$$
 
-The bet underneath all of this is empirical, not just computational convenience: Kim et al. showed that bugs cluster spatially in a codebase (temporal/lexical locality), so paths that are edit-distance-close to a known buggy path are disproportionately likely to matter for the *same* bug. Small $$d$$ should already buy you most of the useful predicate before path counts blow up.
+The bet underneath all of this is empirical, not just computational convenience: Kim et al. showed that bugs cluster spatially in a codebase (temporal/lexical locality), so paths that are edit-distance-close to a known buggy path are disproportionately likely to matter for the _same_ bug. Small $$d$$ should already buy you most of the useful predicate before path counts blow up.
 
 ### Putting it together
 
@@ -70,11 +70,11 @@ Checking coverage of a fix $$f$$ reduces to a three-step pipeline, which the pap
 $$\exists x_1 \cdots x_n \Big[\, SE\big(P_f,\; \underbrace{WP_d(P_b, \neg\varphi, \Pi_{i_b}, d)}_{\alpha} \,\big) \wedge \varphi \,\Big]$$
 
 1. Extract the concrete path $$\Pi_{i_b}$$ that the known buggy input induces.
-2. Compute $$\alpha = WP_d(P_b, \neg\varphi, \Pi_{i_b}, d)$$ — an *under-approximation* of $$\tilde{i}_b$$.
+2. Compute $$\alpha = WP_d(P_b, \neg\varphi, \Pi_{i_b}, d)$$ — an _under-approximation_ of $$\tilde{i}_b$$.
 3. Symbolically execute $$P_f$$ from precondition $$\alpha$$ to get a postcondition $$\psi$$, existentially quantify away the non-input variables, and check whether $$\psi \to \varphi$$ is valid.
 
 Any counterexample to that implication is, by construction, a member of $$\alpha$$'s underlying input set — and since $$\{i \in I : \alpha\} \subseteq \tilde{i}_b$$ by construction, every counterexample $$WP_d$$ produces is a genuine bug-triggering input, not a false positive. That's the soundness guarantee that makes the whole approach trustworthy as a bug-fix critic rather than just a heuristic: FIXATION can miss bad fixes (if $$d$$ is too small to reach the relevant path), but it never cries wolf.
 
 ### What stuck with me
 
-This is basically the mirror image of what I've been building at UIUC with AnyPoC. AnyPoC starts from a *candidate bug report* and synthesizes a PoC to prove the bug is real — validating the front half of the bug lifecycle. This paper starts from a *candidate fix* and synthesizes a counterexample to prove it's incomplete — validating the back half. Same underlying belief in both: a claim about program behavior isn't trustworthy until something concrete forces it to prove itself. Sixteen years apart, same instinct, very different toolchain — $$WP_d$$ and symbolic execution here, LLM agents driving execution traces in ours.
+This is basically the mirror image of what I've been building at UIUC with AnyPoC. AnyPoC starts from a _candidate bug report_ and synthesizes a PoC to prove the bug is real — validating the front half of the bug lifecycle. This paper starts from a _candidate fix_ and synthesizes a counterexample to prove it's incomplete — validating the back half. Same underlying belief in both: a claim about program behavior isn't trustworthy until something concrete forces it to prove itself. Sixteen years apart, same instinct, very different toolchain — $$WP_d$$ and symbolic execution here, LLM agents driving execution traces in ours.
