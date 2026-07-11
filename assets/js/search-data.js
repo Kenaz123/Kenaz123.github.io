@@ -55,7 +55,10 @@ ninja.data = [{
             window.location.href = "/blog/2025/welcome/";
           
         },
-      },{id: "news-i-graduated-with-a-b-s-in-computer-science-and-technology-from-nanjing-university",
+      },{id: "news-started-a-summer-research-internship-at-uiuc-advised-by-prof-lingming-zhang",
+          title: 'Started a summer research internship at UIUC, advised by Prof. Lingming Zhang.',
+          description: "",
+          section: "News",},{id: "news-i-graduated-with-a-b-s-in-computer-science-and-technology-from-nanjing-university",
           title: 'I graduated with a B.S. in Computer Science and Technology from Nanjing University....',
           description: "",
           section: "News",},{id: "news-i-will-be-pursuing-my-m-s-in-computer-science-at-the-university-of-illinois-urbana-champaign",
