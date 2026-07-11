@@ -6,6 +6,7 @@ description: Looking back on four years at Nanjing University before heading to 
 tags: Musings
 thumbnail: assets/img/grad/grad-selfie.jpg
 related_posts: false
+published: false
 ---
 
 Four years compress into an afternoon pretty fast. B.S. in Computer Science and Technology, done — cap, gown, and a bouquet of flowers I had no idea what to do with.
