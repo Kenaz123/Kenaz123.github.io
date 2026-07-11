@@ -1,28 +1,44 @@
 {
   "basics": {
     "name": "Weidong Wang",
-    "label": "Computer Science Student",
+    "label": "M.S. Student in Computer Science",
     "image": "",
-    "email": "",
+    "email": "weidongw@illinois.edu",
     "phone": "",
     "url": "https://kenaz123.github.io",
-    "summary": "Undergraduate student in Computer Science at Nanjing University, interested in Machine Learning Systems and Software Engineering",
+    "summary": "M.S. student in Computer Science at the University of Illinois Urbana-Champaign, interested in Software Engineering and Large Language Model Systems",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Nanjing",
-      "countryCode": "CN",
-      "region": "Jiangsu"
+      "city": "Urbana-Champaign",
+      "countryCode": "US",
+      "region": "Illinois"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Kenaz123",
+        "url": "https://github.com/Kenaz123"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "weidongwang",
+        "url": "https://www.linkedin.com/in/weidongwang"
+      },
+      {
+        "network": "X",
+        "username": "Aifly1231",
+        "url": "https://x.com/Aifly1231"
+      }
+    ]
   },
   "work": [
     {
       "name": "University of Illinois Urbana-Champaign",
       "position": "Research Intern",
       "url": "",
-      "startDate": "2024-10-01",
-      "endDate": "",
+      "startDate": "2025-02-01",
+      "endDate": "2026-07-01",
       "summary": "Working on LLM4SE, Code Agent, and Bug Detection",
       "highlights": []
     },
@@ -30,14 +46,25 @@
       "name": "Peking University",
       "position": "Research Intern",
       "url": "",
-      "startDate": "2024-04-01",
-      "endDate": "2024-10-01",
+      "startDate": "2024-03-01",
+      "endDate": "2025-01-01",
       "summary": "Worked on efficient LLM serving systems",
       "highlights": []
     }
   ],
   "volunteer": [],
   "education": [
+    {
+      "institution": "University of Illinois Urbana-Champaign",
+      "location": "Urbana-Champaign, IL, USA",
+      "url": "https://illinois.edu/",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "startDate": "2026-08-01",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
     {
       "institution": "Nanjing University",
       "location": "Nanjing, China",
@@ -52,7 +79,29 @@
   ],
   "awards": [],
   "certificates": [],
-  "publications": [],
+  "publications": [
+    {
+      "name": "EPIC: Efficient Position-Independent Caching for Serving Large Language Models",
+      "publisher": "ICML 2025",
+      "releaseDate": "2025-07-01",
+      "url": "https://openreview.net/forum?id=qjd3ZUiHRT",
+      "summary": ""
+    },
+    {
+      "name": "RaaS: Reasoning-Aware Attention Sparsity for Efficient LLM Reasoning",
+      "publisher": "ACL 2025 Findings",
+      "releaseDate": "2025-07-01",
+      "url": "https://aclanthology.org/2025.findings-acl.131/",
+      "summary": ""
+    },
+    {
+      "name": "AnyPoC: Universal Proof-of-Concept Test Generation for Scalable LLM-Based Bug Detection",
+      "publisher": "arXiv",
+      "releaseDate": "2026-04-13",
+      "url": "https://arxiv.org/abs/2604.11950",
+      "summary": ""
+    }
+  ],
   "skills": [],
   "languages": [
     {
@@ -95,6 +144,14 @@
       "startDate": "2025-01-01",
       "endDate": "2025-03-01",
       "url": "https://github.com/DerekHJH/raas"
+    },
+    {
+      "name": "AnyPoC",
+      "summary": "Universal Proof-of-Concept Test Generation for Scalable LLM-Based Bug Detection (arXiv 2026)",
+      "highlights": [],
+      "startDate": "2025-10-01",
+      "endDate": "2026-03-01",
+      "url": "https://github.com/zzjas/anypoc"
     }
   ]
 }

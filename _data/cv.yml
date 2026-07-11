@@ -41,6 +41,9 @@
     - title: RaaS - Reasoning-Aware Attention Sparsity for Efficient LLM Reasoning
       year: 2025
       description: ACL 2025 Findings
+    - title: AnyPoC - Universal Proof-of-Concept Test Generation for Scalable LLM-Based Bug Detection
+      year: 2026
+      description: arXiv 2026
 
 - title: Research Interests
   type: nested_list
