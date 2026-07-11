@@ -3,7 +3,7 @@ layout: post
 title: "Paper Notes: Has the Bug Really Been Fixed?"
 date: 2026-07-11 09:00:00-0500
 description: Reading Gu, Barr, Hamilton, and Su's ICSE'10 paper on detecting bad bug fixes with distance-bounded weakest preconditions.
-tags: Software Engineering
+tags: [Software Engineering]
 related_posts: false
 ---
 
