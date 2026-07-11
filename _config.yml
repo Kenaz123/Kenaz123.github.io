@@ -85,7 +85,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blogs # blog_name will be displayed in your blog page
-blog_description: Thoughts on AI, systems, and research
+blog_description: Thoughts on AI, systems, research, and musings
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -259,7 +259,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["LLM4Code", "Software Engineering", "Systems", "LLM Systems", "Deep Learning", "LLM"] # these tags will be displayed on the front page of your blog
+display_tags: ["LLM4Code", "Software Engineering", "Systems", "LLM Systems", "Deep Learning", "LLM", "Musings"] # these tags will be displayed on the front page of your blog
 display_categories: ["LLM"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
