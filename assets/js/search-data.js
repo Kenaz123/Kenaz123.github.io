@@ -44,18 +44,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-graduation-memory-in-nju",
-        
-          title: "Graduation Memory in NJU",
-        
-        description: "Looking back on four years at Nanjing University before heading to UIUC.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/graduation-memory-in-nju/";
-          
-        },
-      },{id: "post-hello-welcome-to-my-homepage",
+            },{id: "post-hello-welcome-to-my-homepage",
         
           title: "Hello, welcome to my homepage",
         
