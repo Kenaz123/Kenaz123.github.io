@@ -55,7 +55,10 @@ ninja.data = [{
             window.location.href = "/blog/2025/welcome/";
           
         },
-      },{id: "news-i-will-be-pursuing-my-m-s-in-computer-science-at-the-university-of-illinois-urbana-champaign",
+      },{id: "news-i-graduated-with-a-b-s-in-computer-science-and-technology-from-nanjing-university",
+          title: 'I graduated with a B.S. in Computer Science and Technology from Nanjing University....',
+          description: "",
+          section: "News",},{id: "news-i-will-be-pursuing-my-m-s-in-computer-science-at-the-university-of-illinois-urbana-champaign",
           title: 'I will be pursuing my M.S. in Computer Science at the University of...',
           description: "",
           section: "News",},{
