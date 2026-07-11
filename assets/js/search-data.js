@@ -55,18 +55,7 @@ ninja.data = [{
             window.location.href = "/blog/2025/welcome/";
           
         },
-      },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-i-will-be-pursuing-my-m-s-in-computer-science-at-the-university-of-illinois-urbana-champaign",
+      },{id: "news-i-will-be-pursuing-my-m-s-in-computer-science-at-the-university-of-illinois-urbana-champaign",
           title: 'I will be pursuing my M.S. in Computer Science at the University of...',
           description: "",
           section: "News",},{
