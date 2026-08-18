@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  M.S. in Computer Science @ <a href='https://illinois.edu/'>UIUC</a>.
+  M.S. Student in Computer Science @ <a href='https://illinois.edu/'>UIUC</a>.
 
 profile:
   align: right
@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Weidong Wang (王卫东), a Master's student in Computer Science at the [University of Illinois Urbana-Champaign](https://illinois.edu/). I received my B.S. in Computer Science and Technology from [Nanjing University](https://www.nju.edu.cn/en) in 2026. My research interest lies in topics related to _Software Engineering_ and _Large Language Model System_, with a current focus on projects related to _LLM4SE_, _Code Agent_, and _Bug Detection_. I am currently working on developing agentic systems to advance bug detection and automated program repair.
+I am Weidong Wang (王卫东), an M.S. student in Computer Science at the [University of Illinois Urbana-Champaign](https://illinois.edu/), where I am a member of the iSE Group advised by Prof. [Lingming Zhang](https://lingming.cs.illinois.edu/). My research focuses on _software engineering_ and _large language model systems_. I build agentic systems for coding agents, bug detection, and automated program repair.
 
-I am part of the iSE Group at UIUC, advised by Prof. [Lingming Zhang](https://lingming.cs.illinois.edu/). Previously, I was doing some machine learning system work in the LLMsys group with Prof. [Tao Xie](https://taoxiease.github.io/) in [Peking University](https://english.pku.edu.cn/).
+I received my B.S. in Computer Science and Technology from [Nanjing University](https://www.nju.edu.cn/en) in 2026. Previously, I worked on machine learning systems in the LLMsys Group with Prof. [Tao Xie](https://taoxiease.github.io/) at [Peking University](https://english.pku.edu.cn/).
 
 Feel free to drop me an email if you are interested in my research or have any questions.

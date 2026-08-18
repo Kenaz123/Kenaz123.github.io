@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be pursuing my M.S. in Computer Science at the [University of Illinois Urbana-Champaign](https://illinois.edu/).
+I began my M.S. in Computer Science at the [University of Illinois Urbana-Champaign](https://illinois.edu/).
