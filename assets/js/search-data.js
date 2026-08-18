@@ -30,21 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-paper-notes-has-the-bug-really-been-fixed",
+        },{id: "post-paper-notes-has-the-bug-really-been-fixed",
         
           title: "Paper Notes: Has the Bug Really Been Fixed?",
         
@@ -72,8 +58,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-graduated-with-a-b-s-in-computer-science-and-technology-from-nanjing-university",
           title: 'I graduated with a B.S. in Computer Science and Technology from Nanjing University....',
           description: "",
-          section: "News",},{id: "news-i-will-be-pursuing-my-m-s-in-computer-science-at-the-university-of-illinois-urbana-champaign",
-          title: 'I will be pursuing my M.S. in Computer Science at the University of...',
+          section: "News",},{id: "news-i-began-my-m-s-in-computer-science-at-the-university-of-illinois-urbana-champaign",
+          title: 'I began my M.S. in Computer Science at the University of Illinois Urbana-Champaign....',
           description: "",
           section: "News",},{
         id: 'social-cv',
